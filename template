@@ -1,0 +1,57 @@
+%Training and test files are formatted as
+%Base A_count_prev40 T_count_prev40 C_count_prev40 G_count_prev40 GT_count_prev40 AG_count_prev40 ATG_count_prev40 TAA_count_prev40 TGA count_count_prev40 TAG count_count_prev40
+%A_count_next20 T_count_next20 C_count_next20 G_count_next20 GT_count_next20 AG_count_next20 ATG_count_next20 TAA_count_next20 TGA count_count_next20 TAG count_count_next20 Label
+
+%state transition feature functions
+%start of CDS
+B00:%x[-1,0]/%x[0,0]/%x[1,0]/%x[2,0]
+%start of intron
+B01:%x[-1,0]/%x[0,0]/%x[1,0]
+%end of intron
+B02:%x[-2,0]/%x[-1,0]/%x[0,0]
+%end of CDS
+B03:%x[-3,0]/%x[-2,0]/%x[-1,0]/%x[0,0]
+
+
+%amino acid statistics
+U00:%x[-5,0]/%x[-4,0]/%x[-3,0]/%x[-2,0]/%x[-1,0]/%x[0,0]
+
+
+%state feature functions
+U01:%x[-4,0]/%x[-3,0]/%x[-2,0]/%x[-1,0]/%x[0,0]
+U02:%x[0,0]/%x[1,0]/%x[2,0]/%x[3,0]/%x[4,0]
+
+U03:%x[-2,0]/%x[-1,0]/%x[0,0]/%x[1,0]/%x[2,0]
+
+U04:%x[0,0]/%x[1,0]/%x[2,0]
+U05:%x[-2,0]/%x[-1,0]/%x[0,0]
+
+U06:%x[0,0]/%x[1,0]
+U07:%x[-1,0]/%x[0,0]
+
+U08:%x[-1,0]
+U09:%x[1,0]
+U10:%x[0,0]
+
+
+%histogram features
+U11:%x[0,1]
+U12:%x[0,2]
+U13:%x[0,3]
+U14:%x[0,4]
+U15:%x[0,5]
+U16:%x[0,6]
+U17:%x[0,7]
+U18:%x[0,8]
+U19:%x[0,9]
+U20:%x[0,10]
+U11:%x[0,11]
+U12:%x[0,12]
+U13:%x[0,13]
+U14:%x[0,14]
+U15:%x[0,15]
+U16:%x[0,16]
+U17:%x[0,17]
+U18:%x[0,18]
+U19:%x[0,19]
+U20:%x[0,20]

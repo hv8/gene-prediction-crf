@@ -1,0 +1,121 @@
+TP = 4465 
+FN = 19354 
+TN = 399703 
+FP = 1254 
+Total C = 23819 
+Total N = 400957 
+Total = 424776 
+Sensitivity = 0.187455392753684 
+Specificity = 0.996872482585414 
+TP = 10409 
+FN = 13410 
+TN = 395259 
+FP = 5698 
+Total C = 23819 
+Total C = 400957 
+Total = 424776 
+Sensitivity = 0.437004072379193 
+Specificity = 0.985788999817936 
+
+N <= 200
+TP = 14010 
+FN = 9809 
+TN = 55642 
+FP = 4250 
+Total C = 23819 
+Total C = 59892 
+Total = 83711 
+Sensitivity = 0.588185902011 
+Specificity = 0.929038936752822 
+
+Base Sequence (Reduced) + Histogram Features  N <= 200
+TP = 13755 
+FN = 10064 
+TN = 55684 
+FP = 4208 
+Total C = 23819 
+Total C = 59892 
+Total = 83711 
+Sensitivity = 0.577480162895168 
+Specificity = 0.929740199024912 
+
+Base Sequence (Reduced) Features only N <= 200
+TP = 13425 
+FN = 10394 
+TN = 54266 
+FP = 5626 
+Total C = 23819 
+Total N = 59892 
+Total = 83711 
+Sensitivity = 0.563625676980562 
+Specificity = 0.9060642489815 
+
+Base Sequence (Reduced) Features + Base sequences from paper only N <= 200
+TP = 13886 
+FN = 9933 
+TN = 55448 
+FP = 4444 
+Total C = 23819 
+Total N = 59892 
+Total = 83711 
+Sensitivity = 0.58297997397036 
+Specificity = 0.925799772924598 
+
+Base Sequence (Reduced) Features + Base sequences from paper + Histogram N <= 200
+TP = 13945 
+FN = 9874 
+TN = 56744 
+FP = 3148 
+Total C = 23819 
+Total N = 59892 
+Total = 83711 
+Sensitivity = 0.585456988118729 
+Specificity = 0.947438723034796 
+
+Base Sequence (Reduced) Features + Base sequences from paper + Histogram N <= 200, FSM
+TP = 21690 
+FN = 4969 
+TN = 18859 
+FP = 12137 
+Total C = 26659 
+Total N = 30996 
+Total = 57997 
+Sensitivity = 0.813608912562362 
+Specificity = 0.608433346238224 
+
+Base Sequence (Reduced) Features + Base sequences from paper + Histogram++ N <= 200
+TP = 20250 
+FN = 6469 
+TN = 25630 
+FP = 5648 
+Total C = 26719 
+Total N = 31278 
+Total = 57997 
+Sensitivity = 0.757887645495715 
+Specificity = 0.819425794488139 
+F1 = 0.787456278885734 
+
+Original Dataset Final
+TP = 8689 
+FN = 18030 
+TN = 338902 
+FP = 1026 
+Total C = 26719 
+Total N = 339928 
+Total = 366647 
+Sensitivity = 0.325199296380853 
+Specificity = 0.996981713774682 
+F1 = 0.490428692189376 
+
+Modified Dataset Final
+TP = 20250 
+FN = 6469 
+TN = 25630 
+FP = 5648 
+Total C = 26719 
+Total N = 31278 
+Total = 57997 
+Sensitivity = 0.757887645495715 
+Specificity = 0.819425794488139 
+F1 = 0.787456278885734 
+
